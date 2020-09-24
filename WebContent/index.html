@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="APP">
+<head>
+<meta charset="UTF-8">
+<title>数据绑定</title>
+</head>
+<body ng-controller="MyController">
+<h2>{{clock.now}}</h2>
+<p ng-repeat="(key,val) in data">
+{{key}} : {{val}}
+</p>
+<script type="text/javascript" src="angular/angular.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
